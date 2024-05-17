@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: lamp_Brinlee_E.ma
-//Last modified: Thu, May 16, 2024 11:04:39 PM
+//Last modified: Thu, May 16, 2024 11:06:48 PM
 //Codeset: 1252
 requires maya "2023";
 requires "stereoCamera" "10.0";
@@ -11,20 +11,23 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "0354AAC6-4C20-3264-3B64-6A944C24BE55";
+fileInfo "UUID" "A58C9F68-44B1-F111-DEDE-B4A25CE39663";
 createNode transform -s -n "persp";
 	rename -uid "AAD2C622-427A-C5A2-D6D7-618C68A216B1";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -7.4977149633771383 25.180638490240412 11.488365387093323 ;
-	setAttr ".r" -type "double3" -48.338352729558594 330.59999999997888 -1.8253582765031489e-15 ;
+	setAttr ".t" -type "double3" -27.15083928993613 24.905820071499367 16.572944276169622 ;
+	setAttr ".r" -type "double3" -31.200000000000014 -58.600000000000257 0 ;
+	setAttr ".rp" -type "double3" 0 -8.8817841970012523e-16 0 ;
+	setAttr ".rpt" -type "double3" -6.1545595613921571e-17 6.4119857043246302e-16 4.018059572201407e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7F67D7D5-46B8-CDA8-0E00-F182E5172A1D";
 	setAttr -k off ".v" no;
-	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 19.806168469577386;
+	setAttr ".fl" 34.999999999999979;
+	setAttr ".coi" 37.187996949276226;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
+	setAttr ".tp" -type "double3" 3.5527136788005009e-15 5.6414332272885055 1.1920928919550988e-06 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "7A2FD5DF-4347-B849-6DDD-DE8EE5FB27E3";
