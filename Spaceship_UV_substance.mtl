@@ -1,0 +1,41 @@
+newmtl Spaceship_UV:blinn1SG
+illum 4
+Kd 0.34 0.44 0.92
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Spaceship_UV:blinn2SG
+illum 4
+Kd 0.34 0.92 0.89
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Spaceship_UV:blinn3SG
+illum 4
+Kd 0.36 0.92 0.34
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Spaceship_UV:blinn4SG
+illum 4
+Kd 0.92 0.48 0.34
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Spaceship_UV:blinn5SG
+illum 4
+Kd 0.92 0.34 0.75
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
